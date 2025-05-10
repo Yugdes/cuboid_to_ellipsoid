@@ -69,13 +69,13 @@ Each vertex $(h_x,h_y,h_z)$ must lie on the ellipsoid:
 $$
   \frac{h_x^2}{r_x^2} + \frac{h_y^2}{r_y^2} + \frac{h_z^2}{r_z^2} = 1
   \quad\Longrightarrow\quad
-  \frac{a^2}{4\,r_x^2} + \frac{b^2}{4\,r_y^2} + \frac{c^2}{4\,r_z^2} = 1.
+  \frac{a^2}{4r_x^2} + \frac{b^2}{4r_y^2} + \frac{c^2}{4r_z^2} = 1.
 $$
 
 Define the constraint function:
 
 $$
-  g(r_x,r_y,r_z) = \frac{a^2}{4\,r_x^2} + \frac{b^2}{4\,r_y^2} + \frac{c^2}{4\,r_z^2} - 1 = 0.
+  g(r_x,r_y,r_z) = \frac{a^2}{4r_x^2} + \frac{b^2}{4r_y^2} + \frac{c^2}{4r_z^2} - 1 = 0.
 $$
 
 ### 4. Minimizing Volume via Lagrange Multipliers
@@ -120,7 +120,7 @@ $$
 Hence
 
 $$
-  r_x = k\,a,\quad r_y = k\,b,\quad r_z = k\,c.
+  r_x = ka,\quad r_y = kb,\quad r_z = kc.
 $$
 
 ### 5. Final Semi‑Axes Lengths
@@ -128,7 +128,7 @@ $$
 Plugging into the constraint:
 
 $$
-  \frac{a^2}{4(k\,a)^2} + \frac{b^2}{4(k\,b)^2} + \frac{c^2}{4(k\,c)^2} = \frac{3}{4k^2} = 1
+  \frac{a^2}{4(ka)^2} + \frac{b^2}{4(kb)^2} + \frac{c^2}{4(kc)^2} = \frac{3}{4k^2} = 1
   \quad\Longrightarrow\quad k = \frac{\sqrt3}{2}.
 $$
 
