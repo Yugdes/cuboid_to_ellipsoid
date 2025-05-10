@@ -284,4 +284,4 @@ Below is a breakdown of `plot_cuboid_and_ellipsoid` in `plot_cuboid_ellipsoid_wi
 
 MIT License
 
-> *© 2025 Yug DEsai*
+> *© 2025 Yug Desai*
